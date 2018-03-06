@@ -1,9 +1,7 @@
 # stranger-friends
-A Python script for collecting the mac addresses of wlan interfaces via a monitor mode enabled wireless adapter connected to a Raspberry Pi. 
+A Python script for parsing and converting a collection of MAC addresses of wlan interfaces, via a monitor mode enabled wireless adapter that is connected to a battery powered Raspberry Pi with a minature touch screen. Tshark is the software used for the collection.
 
-Those MAC addresses are then pushed into a JSON file. 
-
-The JSON file is parsed and the MAC addresses are converted from hexadecimal values into values that can be used for attribute values within Cinema 4D and Blender. 
+Those MAC addresses are pushed into a JSON file and the JSON file is parsed and the MAC addresses are converted from hexadecimal values into values that can be used for attribute values within Cinema 4D and Blender. 
 
 A 3D model template was designed in Cinema 4D and one is generated per unique MAC address.
 
