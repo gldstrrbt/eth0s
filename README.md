@@ -21,6 +21,6 @@ The purpose is to raise awareness with people who are unaware of the dangers of,
 ![Stranger foundation model 05](http://shanelessa.com/stranger-friends/imgs/stranger-05.jpg)
 ![Stranger foundation model 06](http://shanelessa.com/stranger-friends/imgs/stranger-06.jpg)
 
-Testing model modification with Python script interfacing with Cinema 4D
+Initial testing of model modification with Python script interfacing with Cinema 4D
 ![Stranger foundation model 08. Python modification test](http://shanelessa.com/stranger-friends/imgs/stranger-08.png)
 
