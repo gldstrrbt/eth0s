@@ -12,3 +12,11 @@ Another Python script is used to interface with Cinema 4D and Blender (originall
 The next step is to create a 3D virtual reality environment where these models can be interacted with. The ideal outcome is to showcase this in a gallery setting and setup in a way that individuals from the public would have to provide some form of personal information (phone number, email, name, age, address, etc). From there, interface with the Pipl API to search for the individual and any images of them or people related to that individual. Then taking the images collected and mapping them to the models within the environment. 
 
 The purpose is to raise awareness with people who are unaware of the dangers of, not only providing seemingly innocuous personal information at random, but also the dangers of being tracked via monitor mode when a device's wlan interface is on and NOT connected to a wifi network. Combine this unknowing give away of a device's wlan interface's unique address, the government's access to phone records, the government's unchecked and unlawful spying on citizens, and the current administration's mission of hunting down people who are deemed "illegal" with U.S. Immigration and Customs Enforcement (ICE) agency, then the dangers are not so harmless.
+
+![Stranger foundation model 00](http://shanelessa.com/stranger-friends/imgs/stranger-00.jpg)
+![Stranger foundation model 01](http://shanelessa.com/stranger-friends/imgs/stranger-01.jpg)
+![Stranger foundation model 02](http://shanelessa.com/stranger-friends/imgs/stranger-02.jpg)
+![Stranger foundation model 03](http://shanelessa.com/stranger-friends/imgs/stranger-03.jpg)
+![Stranger foundation model 04](http://shanelessa.com/stranger-friends/imgs/stranger-04.jpg)
+![Stranger foundation model 05](http://shanelessa.com/stranger-friends/imgs/stranger-05.jpg)
+![Stranger foundation model 06](http://shanelessa.com/stranger-friends/imgs/stranger-06.jpg)
