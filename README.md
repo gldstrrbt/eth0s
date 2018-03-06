@@ -7,7 +7,7 @@ The JSON file is parsed and the MAC addresses are converted from hexadecimal val
 
 A 3D model template was designed in Cinema 4D and one is generated per unique MAC address.
 
-Another Python script is used to interface with Cinema 4D and Blender to batch import each model, and the values collected and converted from each MAC address are then used to modify different features of the model. 
+Another Python script is used to interface with Cinema 4D and Blender (originally with MakeHuman) to batch import each model, and the values collected and converted from each MAC address are then used to modify different features of the model. 
 
 The next step is to create a 3D virtual reality environment where these models can be interacted with. The ideal outcome is to showcase this in a gallery setting and setup in a way that individuals from the public would have to provide some form of personal information (phone number, email, name, age, address, etc). From there, interface with the Pipl API to search for the individual and any images of them or people related to that individual. Then taking the images collected and mapping them to the models within the environment. 
 
