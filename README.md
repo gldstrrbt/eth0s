@@ -1,24 +1,8 @@
 # stranger-friends
-A Python script for parsing and converting collected MAC addresses into values usable within Blender. For this project, MAC addresses were collected with a Raspberry Pi fitted with an Alfa wireless card set to monitor mode, Tshark software, a power bank, and a miniature touch screen. 
+A Python script for converting collected MAC addresses into values to be used in Blender. 
 
-Each collected MAC address is added to a JSON file. Python is used to parse the JSON file and convert the MAC addresses from hexadecimal values into values compatible with a range of parameters available in the ManuelbastioniLab Blender plugin.  
+The MAC addresses used for this project were gathered using a Raspberry Pi fitted with an Alfa wireless card set to monitor mode, Tshark software, a power bank, and a miniature touch screen. 
 
-Another Python script interfaces with the ManuelbastioniLab plugin and sends the converte values collected and converted from each MAC address are then used to modify different features of the model. 
+Each collected MAC address has been added to a JSON file. A function within the Python script is used to parse the JSON file and convert the MAC addresses from hexadecimal values into values compatible with a range of parameters available in the ManuelbastioniLab Blender plugin.  
 
-A 3D model template was designed in Cinema 4D and one is generated per unique MAC address.
-
-The next step is to create a 3D virtual reality environment where these models can be interacted with. The ideal outcome is to showcase this in a gallery setting and setup in a way that individuals from the public would have to provide some form of personal information (phone number, email, name, age, address, etc). From there, interface with the Pipl API to search for the individual and any images of them or people related to that individual. Then taking the images collected and mapping them to the models within the environment. 
-
-The purpose is to raise awareness with people who are unaware of the dangers of, not only providing seemingly innocuous personal information at random, but also the dangers of being tracked via monitor mode when a device's wlan interface is on and NOT connected to a wifi network. Combine this unknowing give away of a device's wlan interface's unique address, the government's access to phone records, the government's unchecked and unlawful spying on citizens, and the current administration's mission of hunting down people who are deemed "illegal" with U.S. Immigration and Customs Enforcement (ICE) agency, then the dangers are not so harmless.
-
-![Stranger foundation model 00](http://shanelessa.com/stranger-friends/imgs/stranger-00.jpg)
-![Stranger foundation model 01](http://shanelessa.com/stranger-friends/imgs/stranger-01.jpg)
-![Stranger foundation model 02](http://shanelessa.com/stranger-friends/imgs/stranger-02.jpg)
-![Stranger foundation model 03](http://shanelessa.com/stranger-friends/imgs/stranger-03.jpg)
-![Stranger foundation model 04](http://shanelessa.com/stranger-friends/imgs/stranger-04.jpg)
-![Stranger foundation model 05](http://shanelessa.com/stranger-friends/imgs/stranger-05.jpg)
-![Stranger foundation model 06](http://shanelessa.com/stranger-friends/imgs/stranger-06.jpg)
-
-Initial testing of model modification with Python script interfacing with Cinema 4D
-![Stranger foundation model 08. Python modification test](http://shanelessa.com/stranger-friends/imgs/stranger-08.png)
-
+Another script interfaces with the ManuelbastioniLab plugin to generate humanoid figures whose parameters are dictated by the values generated from the converted MAC address. 
