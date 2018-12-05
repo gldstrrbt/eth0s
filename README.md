@@ -1,4 +1,4 @@
-# stranger-friends
+# eth[0]s
 A Python script for converting collected MAC addresses into values to be used in Blender. 
 
 The MAC addresses used for this project were gathered using a Raspberry Pi fitted with an Alfa wireless card set to monitor mode, Tshark software, a power bank, and a miniature touch screen. 
