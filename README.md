@@ -1,11 +1,11 @@
 # stranger-friends
-A Python script for parsing and converting a collection of MAC addresses of wlan interfaces, via a monitor mode enabled wireless adapter that is connected to a battery powered Raspberry Pi with a minature touch screen. Tshark is the software used for the collection.
+A Python script for parsing and converting collected MAC addresses into values usable within Blender. For this project, MAC addresses were collected with a Raspberry Pi fitted with an Alfa wireless card set to monitor mode, Tshark software, a power bank, and a miniature touch screen. 
 
-Those MAC addresses are pushed into a JSON file and the JSON file is parsed and the MAC addresses are converted from hexadecimal values into values that can be used for attribute values within Cinema 4D and Blender. 
+Each collected MAC address is added to a JSON file. Python is used to parse the JSON file and convert the MAC addresses from hexadecimal values into values compatible with a range of parameters available in the ManuelbastioniLab Blender plugin.  
+
+Another Python script interfaces with the ManuelbastioniLab plugin and sends the converte values collected and converted from each MAC address are then used to modify different features of the model. 
 
 A 3D model template was designed in Cinema 4D and one is generated per unique MAC address.
-
-Another Python script is used to interface with Cinema 4D and Blender (originally with MakeHuman) to batch import each model, and the values collected and converted from each MAC address are then used to modify different features of the model. 
 
 The next step is to create a 3D virtual reality environment where these models can be interacted with. The ideal outcome is to showcase this in a gallery setting and setup in a way that individuals from the public would have to provide some form of personal information (phone number, email, name, age, address, etc). From there, interface with the Pipl API to search for the individual and any images of them or people related to that individual. Then taking the images collected and mapping them to the models within the environment. 
 
